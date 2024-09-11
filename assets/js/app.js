@@ -19,9 +19,9 @@ allClear.addEventListener('click', (e) => {
 
 equals.addEventListener('click', () => {
 	try {
-        const result = eval(output.value);
-        output.value = result;
-    } catch (error) {
-        output.value = 'Error';
-    }
+        	const result = eval(output.value);
+        	output.value = result;
+   	} catch (error) {
+        	output.value = 'Error';
+	}
 });
